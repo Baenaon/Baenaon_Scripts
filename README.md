@@ -19,5 +19,16 @@
 
 ![image](https://user-images.githubusercontent.com/87630540/185681407-c5cdedf9-f007-4077-a267-9a77414d86da.png)
 
+<hr>
 
+![image](https://user-images.githubusercontent.com/87630540/185682127-74029c1c-e8b5-48f1-8d76-6357d977d564.png)
 
+<hr>
+
+![image](https://user-images.githubusercontent.com/87630540/185682234-64efea7f-b44c-4ab5-8f6b-12dea599b899.png)
+
+4️⃣ 협업을 하기 위해 Upstream 저장소 추가 
+
+❗ 먼저 clone된 워킹 디렉토리에 들어가야함!!
+
+![image](https://user-images.githubusercontent.com/87630540/185682556-05ae634f-3d28-4173-8d05-cbf48a3622ff.png)
