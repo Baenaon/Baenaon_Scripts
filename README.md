@@ -147,6 +147,56 @@ git push origin jaebeom
 <hr>
 <br>
 
+### 9️⃣ origin repository에 Upstream의 변경내용 당겨오기
+
+- 이때 까지 로컬 저장소의 변경 사항을 Upstream repository에 반영하는 것 까지는 했으니깐
+- 그럼 fork해 온 Origin repository에도 반영을 해줘야함
+
+![image](https://user-images.githubusercontent.com/87630540/185693210-71117fd6-d9a9-452e-bec2-71bdec315583.png)
+
+<hr>
+
+- Upstream 저장소로부터 'fetch'한다
+- fetch upstream은 우리가 contribute를 하기 원하는 프로젝트의 최신 내용을 동기화 하는 거임
+
+```bash
+git fetch upstream
+```
+
+![image](https://user-images.githubusercontent.com/87630540/185693545-e9ea6de9-5dd4-481b-8fe4-250a94b19563.png)
+
+<hr>
+
+- 로컬 저장소의 main 브랜치로 checkout후 Merge한다.(Checkout은 브런치를 변경해주는 것)
+- (Upstream의 변경된 내용들을 취합하는 과정이라고 생각하면 댐) 
+- 
+```bash
+git checkout main
+git merge upstream/main
+```
+
+![image](https://user-images.githubusercontent.com/87630540/185693899-50c5b9f5-35e2-45ba-9eaa-b32bd069249e.png)
+
+<hr>
+
+- 자신의 원격 저장소인 origin에 반영하려면 git push를 수행한다
+- 이렇게 함으로써 Upstream에서 변경되었던 내용을 origin repo로 반영할 수 있는 것이다.
+
+```bash
+git push
+```
+
+![image](https://user-images.githubusercontent.com/87630540/185694390-73125759-0de6-40f9-ba8b-ff78c4b67105.png)
+
+<hr>
+
+### Conclusion
+
+- Upstream : 일반적으로 사용자가 fork한(The forked)원격 저장소를 의미
+- origin : fork를 해서 나의 원격 저장소가 된 repository를 의미
+- 즉 origin은 original repository가 아니고 fork repository는 origin이며 forked repository는 upstream이 된다.
 
 
+
+## 끝 ~~~~ 🔥🤣🤣🤣😂😝
 
