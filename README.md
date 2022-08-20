@@ -106,6 +106,7 @@ git add .
 # 이제 .git(깃 저장소)이 관리 할 수 있도록 함
 git commit -m "test"
 # origin repo로 반영
+# origin repo에도 jaebeom이라는 브런치가 생김 
 git push origin jaebeom
 ```
 
@@ -153,6 +154,12 @@ git push origin jaebeom
 
 <hr>
 <br>
+
+### ❗ (추가) 작업한 브랜치를 꼭 삭제 해주고, 후에 작업을 시작할 때는 새로운 브랜치를 만들어서 작업하자 ❗
+
+```bash
+git branch -d jaebeom
+```
 
 ### 9️⃣ origin repository에 Upstream의 변경내용 당겨오기
 
