@@ -161,8 +161,13 @@ git push origin jaebeom
 
 
 ```bash
-git branch -d jaebeom
+# 로컬 저장소의 jaebeom 브랜치 삭제
+# (main)브랜치로 바꾸고 수행해야함
+git branch -d jaebeom 
+# 원격 저장소의 jaebeom 브랜치 삭제
+git branch --delete origin jaebeom
 ```
+
 
 ### 9️⃣ origin repository에 Upstream의 변경내용 당겨오기
 
