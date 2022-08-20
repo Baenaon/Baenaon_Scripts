@@ -165,7 +165,7 @@ git push origin jaebeom
 # (main)브랜치로 바꾸고 수행해야함
 git branch -d jaebeom 
 # 원격 저장소의 jaebeom 브랜치 삭제
-git branch --delete origin jaebeom
+git push origin --delete jaebeom
 ```
 
 
