@@ -156,6 +156,9 @@ git push origin jaebeom
 <br>
 
 ### ❗ (추가) 작업한 브랜치를 꼭 삭제 해주고, 후에 작업을 시작할 때는 새로운 브랜치를 만들어서 작업하자 ❗
+#### 밑에서 스크린샷에는 (jaebeom) branch로 fetch를 햇지만 upstream에서의 branch는 main하나 이기 때문에 로컬저장소에 main branch로 가져오는거임 그래서 
+#### jaebeom branch랑 upstream에서 가져온 변경사항들이랑 
+
 
 ```bash
 git branch -d jaebeom
