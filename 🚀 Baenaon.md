@@ -1,12 +1,12 @@
-## Django-react 배달비 공유 웹 서비스 플랫폼
+## Django-react 배달비 공유 웹 서비스 플랫폼 🔥
 
 <br>
 
-### ***Introduction***
+### ***Introduction*** ✔
 
 <hr>
 
-#### Summary 
+#### Summary 🔽
 > - Project 소개
 >   - 배나온 (배달비 나눔 온라인 커뮤니티)
 >   - JWT 기반 회원가입, 로그인 기능 구현
@@ -19,7 +19,7 @@
 > - FRONTEND(React Webapp Client)
 >   - React를 이용하여 로그인 및 회원가입, 게시판 CRUD 서비스용 Web App구현
 
-### Requirments
+### Requirments 🤔
 > - BACKEND(Djagno Authentication Server)
 >   - Python 3.7
 >   - Django 3.2.15
@@ -31,7 +31,7 @@
 > - DataBase
 >   - Mysql 
 
-### Backend End-points
+### Backend End-points 1️⃣
 > Resource modeling(수정 예정)
 > - 회원가입 및 로그인 관련 API
 > 
@@ -49,3 +49,7 @@
 >   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None(그러나 path에 post의 id를 입력해야함) | { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
 >   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성| { "title", "content", (?)"Authorization : Bearer "Access_token" } | { "title", "content"} |
 >   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token |게시글 생성| { "content", (?)"Authorization : Bearer "Access_token" } | {"content"} |
+
+### ERD 🏳
+
+![image](https://user-images.githubusercontent.com/87630540/186983541-2726b055-8606-44f0-8eb1-4e62df0cead1.png)
