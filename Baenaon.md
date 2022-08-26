@@ -32,7 +32,7 @@
 >   - Mysql 
 
 ### Backend End-points
-> Resource modeling
+> Resource modeling(수정 예정)
 > - 회원가입 및 로그인 관련 API
 > 
 >   |  HTTP |  Path |  Method |  Permission |  목적 | request data(frontend) | response data(backend) |
@@ -45,7 +45,7 @@
 > 
 >   |  HTTP |  Path |  Method |  Permission |  목적 | request data(frontend) | response data(backend) |
 >   | --- | --- | --- | --- | --- | --- | --- |
->   |**GET** |/api/posts/|List| AllowAny |게시글 목록 확인| None(아무것도 필요없음) | { "id(post)", "title", "writer", "created_at", "view_count", "commentsc_count" } |
->   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None | { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ... ]
->
-> 
+>   |**GET** |/api/posts/|List| AllowAny |게시글 목록 확인| None(아무것도 필요없음) | { "id(post)", "title", "writer", "created_at", "view_count", "comments_count" } |
+>   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None(그러나 path에 post의 id를 입력해야함) | { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
+>   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성| { "title", "content", (?)"Authorization : Bearer "Access_token" } | { "title", "content"} |
+>   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token |게시글 생성| { "content", (?)"Authorization : Bearer "Access_token" } | {"content"} |
