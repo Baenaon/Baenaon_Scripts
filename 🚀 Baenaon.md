@@ -49,7 +49,7 @@
 >   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None(그러나 path에 post의 id를 입력해야함) | { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
 >   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성| { "title", "content", (?)"Authorization : Bearer "Access_token" } | { "title", "content"} |
 >   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token |게시글 생성| { "content", (?)"Authorization : Bearer "Access_token" } | {"content"} |
-
+>   |**PUT**  |/api/posts/<int:pk>|UPDATE| Access_token |자신의 게시글 수정| {"title", "content", (?)"Authorization : Bearer "Access_token" } |  { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
 ### ERD 🏳
 
 ![image](https://user-images.githubusercontent.com/87630540/186983541-2726b055-8606-44f0-8eb1-4e62df0cead1.png)
