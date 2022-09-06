@@ -46,12 +46,12 @@
 >   |  HTTP |  Path |  Method |  Permission |  목적 | request data(frontend) | response data(backend) |
 >   | --- | --- | --- | --- | --- | --- | --- |
 >   |**GET** |/api/posts/|List| AllowAny |게시글 목록 확인| None(아무것도 필요없음) | { "id(post)", "title", "writer", "created_at", "view_count", "comments_count" } |
->   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None(그러나 path에 post의 id를 입력해야함) | { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
->   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성| { "title", "content", (?)"Authorization : Bearer "Access_token" } | { "title", "content"} |
->   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token | 댓글 생성| { "content", (?)"Authorization : Bearer "Access_token" } | {"content"} |
->   |**PUT**  |/api/posts/<int:pk>|UPDATE| Access_token |자신의 게시글 수정| {"title", "content", (?)"Authorization : Bearer "Access_token" } |  { "id"(post), "title", "writer", "content", "view_count", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
+>   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None(그러나 path에 post의 id를 입력해야함) | { "id"(post), "title", "writer", "content", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
+>   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성| { "title", "content", "category", "address_id" } | { "title", "content", "category"} |
+>   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token | 댓글 생성| { "content" } | {"content"} |
+>   |**PUT**  |/api/posts/<int:pk>|UPDATE| Access_token |자신의 게시글 수정| {"title", "content", "category"} |  { "id"(post), "title", "writer", "category", "content", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
 >   |**DELETE**|/api/posts/<int:pk>|DESTROY| Access_token |자신의 글 삭제| None | HTTP_204(콘텐츠 없음) |
->   |**PUT**  |/api/posts/<int:pk>/comments/|UPDATE| Access_token |자신의 댓글 수정| None |  { "id"(comment), "content", "view_count", "created_at", "updated_at" |
+>   |**PUT**  |/api/posts/<int:pk>/comments/|UPDATE| Access_token |자신의 댓글 수정| None |  { "id"(comment), "content", "created_at", "updated_at" |
 >   |**DELETE**|/api/posts/<int:pk>/comments/|DESTROY| Access_token |자신의 댓글 삭제| None | HTTP_204(콘텐츠 없음) |
 >   |**GET**|/api/posts/user/|LIST| Access_token | 내가 쓴 글들 확인 | None | [ { "id", "title", "writer", "category", "addressname", "created_at", "updated_at" } |
 
