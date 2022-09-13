@@ -45,7 +45,7 @@
 > 2️⃣ 게시판 리소스 관련 API
 > 
 >   |  HTTP |  Path |  Method |  Permission |  목적 |
->   | --- | --- | --- | --- | --- | --- | --- |
+>   | --- | --- | --- | --- | --- |
 >   |**GET** |/api/posts/|LIST| AllowAny |모든 게시글 목록 확인|
 >   |**GET**, **PUT**, **DELETE** |/api/posts/<int:pk>/|RETRIEVE, UPDATE, DESTORY| Access_token or ReadOnly OR IsOwner |게시글 하나 확인, 수정, 삭제|
 >   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성|
