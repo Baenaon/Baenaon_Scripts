@@ -32,6 +32,19 @@
 > - DataBase
 >   - Mysql 
 
+<hr>
+
+### IDE
+> - BACKEND
+>   - Pycharm Professional
+>   - VScode
+>   
+> - FRONTEND
+>   - Intellij
+>   - VScode
+
+<hr>
+
 ### Backend End-points 
 > Resource modeling(수정 예정)
 > 1️⃣ 회원 관련 API
@@ -55,4 +68,7 @@
 >   
 ### ERD 🏳
 
-![image](https://user-images.githubusercontent.com/87630540/186983541-2726b055-8606-44f0-8eb1-4e62df0cead1.png)
+> ![image](https://user-images.githubusercontent.com/87630540/186983541-2726b055-8606-44f0-8eb1-4e62df0cead1.png)
+
+
+
