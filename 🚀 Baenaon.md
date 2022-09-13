@@ -6,7 +6,7 @@
 
 <hr>
 
-#### Summary 🔽
+#### ***Summary*** 🔽
 > - Project 소개
 >   - 배나온 (배달비 나눔 온라인 커뮤니티)
 >   - JWT 기반 회원가입, 로그인 기능 구현
@@ -20,7 +20,7 @@
 > - FRONTEND(React Webapp Client)
 >   - React를 이용하여 로그인 및 회원가입, 게시판 CRUD 서비스용 Web App구현
 
-### Requirments 🤔
+### ***Requirments*** 🤔
 > - BACKEND(Djagno Authentication Server)
 >   - Python 3.7
 >   - Django 3.2.15
@@ -34,7 +34,7 @@
 
 <br>
 
-### IDE 🥢
+### ***IDE*** 🥢
 > - BACKEND
 >   - Pycharm Professional
 >   - VScode
@@ -45,7 +45,7 @@
 
 <br>
 
-### Backend End-points 
+### ***Backend End-points*** 
 > Resource modeling(수정 예정)
 > 
 > 1️⃣ 회원 관련 API
@@ -76,14 +76,14 @@
  
 <br>
 
-### ERD 🏳
+### ***ERD*** 🏳
 
 > ![image](https://user-images.githubusercontent.com/87630540/189979975-9192d16e-c126-474f-b389-3e92b5a249d3.png)
 
 <br>
 
-### process 🚀
-
+### ***process*** 🚀
+>
 > **사용자 회원가입**
 > **사용자 로그인**
 > **사용자 주변 희망하는 배달 픽업 장소 선택**
