@@ -50,7 +50,7 @@
 >   |**GET**, **PUT**, **DELETE** |/api/posts/<int:pk>/|RETRIEVE, UPDATE, DESTORY| Access_token or ReadOnly OR IsOwner |게시글 하나 확인, 수정, 삭제|
 >   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성|
 >   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token | 해당 게시글에 댓글 생성|
->   |**GET** **PUT** **DELETE**|/api/posts/<int:pk>/comments/|RETRIEVE, UPDATE, DESTORY| Access_token |댓글 확인, 수정, 삭제|
+>   |**GET**, **PUT**, **DELETE**|/api/posts/<int:pk>/comments/|RETRIEVE, UPDATE, DESTORY| Access_token |댓글 확인, 수정, 삭제|
 >   |**GET**|/api/posts/search/category/|LIST|AllowAny|카테고리별 검색|
 >   
 ### ERD 🏳
