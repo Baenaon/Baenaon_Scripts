@@ -47,6 +47,7 @@
 
 ### Backend End-points 
 > Resource modeling(수정 예정)
+> 
 > 1️⃣ 회원 관련 API
 > 
 >   |  HTTP |  Path |  Method |  Permission |  목적 |
