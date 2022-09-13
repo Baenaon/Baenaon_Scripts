@@ -34,7 +34,7 @@
 
 ### Backend End-points 
 > Resource modeling(수정 예정)
-> 1️⃣ 회원가입 및 로그인 관련 API
+> 1️⃣ 회원 관련 API
 > 
 >   |  HTTP |  Path |  Method |  Permission |  목적 |
 >   | --- | --- | --- | --- | --- | --- | --- |
@@ -42,19 +42,16 @@
 >   |**POST** |/api/user/signin|NONE| AllowAny |사용자 로그인, access_token 생성 및 반환|
 > 
 > 
-> - 게시판 리소스 관련 API
+> 2️⃣ 게시판 리소스 관련 API
 > 
->   |  HTTP |  Path |  Method |  Permission |  목적 | request data(frontend) | response data(backend) |
+>   |  HTTP |  Path |  Method |  Permission |  목적 |
 >   | --- | --- | --- | --- | --- | --- | --- |
->   |**GET** |/api/posts/|List| AllowAny |게시글 목록 확인| None(아무것도 필요없음) | { "id(post)", "title", "writer", "created_at", "view_count", "comments_count" } |
->   |**GET** |/api/posts/<int:pk>/|Retrieve| Access_token or ReadOnly |게시글 하나 확인(Detail)| None(그러나 path에 post의 id를 입력해야함) | { "id"(post), "title", "writer", "content", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
->   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성| { "title", "content", "category", "address_id" } | { "title", "content", "category"} |
->   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token | 댓글 생성| { "content" } | {"content"} |
->   |**PUT**  |/api/posts/<int:pk>|UPDATE| Access_token |자신의 게시글 수정| {"title", "content", "category"} |  { "id"(post), "title", "writer", "category", "content", "updated_at", "comments": [ { "user, "content", "created_at", "updated_at" },  { "user, "content", "created_at", "updated_at" } ...} ]
->   |**DELETE**|/api/posts/<int:pk>|DESTROY| Access_token |자신의 글 삭제| None | HTTP_204(콘텐츠 없음) |
->   |**PUT**  |/api/posts/<int:pk>/comments/|UPDATE| Access_token |자신의 댓글 수정| None |  { "id"(comment), "content", "created_at", "updated_at" |
->   |**DELETE**|/api/posts/<int:pk>/comments/|DESTROY| Access_token |자신의 댓글 삭제| None | HTTP_204(콘텐츠 없음) |
->   |**GET**|/api/posts/user/|LIST| Access_token | 내가 쓴 글들 확인 | None | [ { "id", "title", "writer", "category", "addressname", "created_at", "updated_at" } |
+>   |**GET** |/api/posts/|LIST| AllowAny |모든 게시글 목록 확인|
+>   |**GET**, **PUT**, **DELETE** |/api/posts/<int:pk>/|RETRIEVE, UPDATE, DESTORY| Access_token or ReadOnly OR IsOwner |게시글 하나 확인, 수정, 삭제|
+>   |**POST** |/api/posts/create/|CREATE| Access_token |게시글 생성|
+>   |**POST** |/api/posts/<int:pk>/comments/create|CREATE| Access_token | 해당 게시글에 댓글 생성|
+>   |**GET** **PUT** **DELETE**|/api/posts/<int:pk>/comments/|RETRIEVE, UPDATE, DESTORY| Access_token |댓글 확인, 수정, 삭제|
+>   |**GET**|/api/posts/search/category/|LIST|AllowAny|카테고리별 검색|
 >   
 ### ERD 🏳
 
