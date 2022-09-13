@@ -34,7 +34,7 @@
 
 <br>
 
-### IDE
+### IDE 🥢
 > - BACKEND
 >   - Pycharm Professional
 >   - VScode
@@ -74,10 +74,24 @@
 >   | **GET**|/api/map/|LIST|Access_token or ReadOnly| 사용자와 가까운 default 배달 픽업 장소 확인 |
 >   | **GET**|/api/map/<int:pk>/posts/|LIST|Access_token or ReadOnly| 해당 배달 픽업 장소에 적힌 글 확인 |
  
+<br>
 
 ### ERD 🏳
 
-> ![image](https://user-images.githubusercontent.com/87630540/186983541-2726b055-8606-44f0-8eb1-4e62df0cead1.png)
+> ![image](https://user-images.githubusercontent.com/87630540/189979975-9192d16e-c126-474f-b389-3e92b5a249d3.png)
+
+<br>
+
+### process 🚀
+
+> **사용자 회원가입**
+> **사용자 로그인**
+> **사용자 주변 희망하는 배달 픽업 장소 선택**
+> **희망하는 배달 픽업 장소에 달린 게시글 보기**
+> **공동 배달을 희망하는 게시글에 댓글 달기**
+> **게시글 CRUD**
+> **댓글 CRUD**
+
 
 
 
