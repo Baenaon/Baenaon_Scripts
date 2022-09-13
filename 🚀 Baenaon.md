@@ -67,9 +67,18 @@
 >   |**GET**, **PUT**, **DELETE**|/api/posts/<int:pk>/comments/|RETRIEVE, UPDATE, DESTORY| Access_token |댓글 확인, 수정, 삭제|
 >   |**GET**|/api/posts/search/category/|LIST|AllowAny|카테고리별 검색|
 >   
+> 3️⃣ 지도 API
+> 
+>   |  HTTP |  Path |  Method |  Permission |  목적 |
+>   | --- | --- | --- | --- | --- |
+>   | **GET**|/api/map/|LIST|Access_token or ReadOnly| 사용자와 가까운 default 배달 픽업 장소 확인 |
+>   | **GET**|/api/map/<int:pk>/posts/|LIST|Access_token or ReadOnly| 해당 배달 픽업 장소에 적힌 글 확인 |
+ 
+
 ### ERD 🏳
 
 > ![image](https://user-images.githubusercontent.com/87630540/186983541-2726b055-8606-44f0-8eb1-4e62df0cead1.png)
+
 
 
 
