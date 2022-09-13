@@ -37,7 +37,7 @@
 > 1️⃣ 회원 관련 API
 > 
 >   |  HTTP |  Path |  Method |  Permission |  목적 |
->   | --- | --- | --- | --- | --- | --- | --- |
+>   | --- | --- | --- | --- | --- |
 >   |**POST** |/api/user/signup|CREATE| AllowAny |사용자 회원가입|
 >   |**POST** |/api/user/signin|NONE| AllowAny |사용자 로그인, access_token 생성 및 반환|
 > 
