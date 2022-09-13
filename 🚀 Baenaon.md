@@ -32,7 +32,7 @@
 > - DataBase
 >   - Mysql 
 
-<hr>
+<br>
 
 ### IDE
 > - BACKEND
@@ -43,7 +43,7 @@
 >   - Intellij
 >   - VScode
 
-<hr>
+<br>
 
 ### Backend End-points 
 > Resource modeling(수정 예정)
