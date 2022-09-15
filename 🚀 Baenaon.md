@@ -141,8 +141,20 @@
 > ![image](https://user-images.githubusercontent.com/95459089/190399433-a0daad9b-f5e2-4dc9-a48d-04038f1dc482.png)
 >
 > - 공동 배달을 희망하는 게시글에 댓글 달기
-> - 게시글 CRUD
-> - 댓글 CRUD
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190403943-091981e4-f2a2-4812-bbf0-30b0f7fa2001.png)
+> 
+> ![image](https://user-images.githubusercontent.com/95459089/190404057-8986a642-67d5-408b-b146-072bebcda5fb.png)
+>
+> - 게시글 만들기
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190404415-690fbeb2-ea1d-443a-b9c7-9a4d9f347c86.png)
+> 
+> ![image](https://user-images.githubusercontent.com/95459089/190404522-ce9171fb-98c8-4244-8fa3-61af663267a9.png)
+>
+> - 마이페이지 
+> - 내가 쓴 글/ 내가 쓴 댓글 확인
+> - 로그
 
 ### Installation
 
