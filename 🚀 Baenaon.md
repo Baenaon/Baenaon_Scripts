@@ -119,10 +119,26 @@
 
 ### ***process*** 🚀
 >
-> - 사용자 회원가입
+> - **사용자 회원가입**
+> 
+> ![image](https://user-images.githubusercontent.com/95459089/190398676-09967fdf-7c9c-42d2-8462-eb24469d7fb9.png)
+> 
 > - 사용자 로그인
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190398915-fb3c0fd9-1866-4507-b8f6-cad0e7172902.png)
+>
 > - 사용자 주변 희망하는 배달 픽업 장소 선택
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190399063-2d3f2c94-b6c1-4f59-8bdf-8fac5cb71483.png)
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190399219-ee6ce604-6c89-40c8-88ec-5ba6fbaabde6.png)
+>
 > - 희망하는 배달 픽업 장소에 달린 게시글 보기
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190399343-8daadcc3-6b64-49cd-9ebf-1d4149721f12.png)
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190399433-a0daad9b-f5e2-4dc9-a48d-04038f1dc482.png)
+>
 > - 공동 배달을 희망하는 게시글에 댓글 달기
 > - 게시글 CRUD
 > - 댓글 CRUD
