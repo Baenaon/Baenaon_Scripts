@@ -170,7 +170,16 @@
 > ![image](https://user-images.githubusercontent.com/95459089/190404522-ce9171fb-98c8-4244-8fa3-61af663267a9.png)
 >
 > - 마이페이지 
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190406145-10696eb5-d58f-4091-8ba2-bc9243397a51.png)
+>
 > - 내가 쓴 글/ 내가 쓴 댓글 확인
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190406249-4ad4f7ed-eeba-46d2-a496-1a5e0cd455b3.png)
+>
+> ![image](https://user-images.githubusercontent.com/95459089/190406324-f31d4d9f-6aa5-44ae-9766-c6c57c8d6d5e.png)
+>
+>
 > - 로그
 
 ### Installation
@@ -228,11 +237,21 @@
 > pip install -r requirements.txt
 > ```
 >
-> **3. my_settings.py파일 생성 후 시크릿 키, 데이터베이스 넣기**
+> **3. my_settings.py파일 생성 후 자신의 시크릿 키(장고, 카카오 API), 데이터베이스 넣기**
 > 
 > ![image](https://user-images.githubusercontent.com/87630540/190362704-92f72db2-09aa-4552-b0f7-4ebf542a16f7.png)
 > 
-> **4. python manage.py makemigrations * python manage.py migrate**
+> **4. 데이터 베이스에 반영**
+> ```bash
+>  python manage.py makemigrations 
+>  ```
+>  ```bash
+>  python manage.py migrate**
+> ```
 > 
-
+> **5. 서버 실행**
+>
+> ```bash
+> python manage.py runserver
+> ```
 
