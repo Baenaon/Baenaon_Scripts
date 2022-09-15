@@ -71,7 +71,7 @@
 >   | footer.js | /pages/ comonents/home | footer 레이아웃 |
 >   | header.js | /pages/ comonents/home | header 레이아웃 |
 >
-> 2️⃣ 로그인/회원가입 관련 Components
+> 2️⃣  로그인/회원가입 관련 Components
 >
 >    | File Name    | Directory | 목적                   |
 >    | ------------ | --------- | ---------------------- |
@@ -79,7 +79,7 @@
 >    | signup.js    | /pages/   | 사용자 회원가입 페이지 |
 >    | logout.js    | /pages/   | 사용자 로그아웃 페이지 |
 > 
->  게시판 관련 Components
+> 3️⃣  게시판 관련 Components
 >
 >   | File Name      | Directory          | 목적                 |
 >   | -------------- | ------------------ | -------------------- |
@@ -90,7 +90,7 @@
 >   | postCard.js    | /pages/            | 게시글 카드 컴포넌트 |
 >   | postForm       | /pages/            | 게시글 쓰기 컴포넌트 |
 >   
-> - 마이페이지 관련 Components
+> 4️⃣  마이페이지 관련 Components
 >
 >   | File Name        | Directory | 목적                  |
 >   | ---------------- | --------- | --------------------- |
@@ -98,13 +98,13 @@
 >   | mypagepost.js    | /pages/   | 내가 쓴 글 컴포넌트   |
 >   | mypagecomment.js | /pages/   | 내가 쓴 댓글 컴포넌트 |
 >
-> - 지도 관련 Components
+> 5️⃣   지도 관련 Components
 >
 >   | File Name | Directory | 목적                                       |
 >   | --------- | --------- | ------------------------------------------ |
 >   | map.js    | /pages/   | 카카오 지도 api 활용 위치 마커 생성 페이지 |
 >   
-> - 상태관리 Reducers 관련 Components
+> 6️⃣ 상태관리 Reducers 관련 Components
 >
 >   | File Name | Directory  | 목적           |
 >   | --------- | ---------- | -------------- |
@@ -112,7 +112,7 @@
 >   | signup.js | /reducers/ | 사용자 reducer |
 >   | post.js   | /reducers/ | 게시글 reducer |
 >
-> - 상태관리 Sagas 관련 Components
+> 7️⃣ 상태관리 Sagas 관련 Components
 >
 >   | File Name | Directory | 목적        |
 >   | --------- | --------- | ----------- |
