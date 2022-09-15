@@ -45,40 +45,41 @@
 
 <br>
 
-### Frontend Components
-
-> **Component description**
+### ***Frontend Components***
 > 
 > - 로그인/회원가입 관련 Components
 > 
 >   | File Name |  Directory | 목적 |
 >   | --- | --- | --- |
->   | LoginForm.js | /components/auth/ |로그인 Form (기존 회원 or 구글 계정)|
->   | SignupForm.js | /components/auth/ |회원가입 Form|
->   | GoogleLoginButton.js | /components/auth/ |Custom Google Login Button 컴포넌트|
-> 
-> - 라우팅 관련 Components
+>   | loginform.js | /pages/ | 사용자 로그인 |
+>   | signup.js | /pages/ | 사용자 회원가입 |
+>   | userprofile.js | /pages/ | 마이페이지 (사용자 정보) |
+>
+> - 게시판 관련 Components
 > 
 >   | File Name |  Directory | 목적 |
 >   | --- | --- | --- |
->   | AppliedRoute.js | /components/routing/ |토큰 인증 필요 없는 컴포넌트 라우팅|
+>   | loginform.js | /pages/ | 사용자 로그인 |
+>   | signup.js | /pages/ | 사용자 회원가입 |
+>   | userprofile.js | /pages/ | 마이페이지 (사용자 정보) |
+>   
+> - 지도 관련 Components
+> 
+>   | File Name |  Directory | 목적 |
+>   | --- | --- | --- |
+>   | map.js | /pages/ | 사용자 위치, 게시글 수 나타내기|
 >   | AthenticatedRoute.js | /components/routing/ |토큰 인증 필요로 하는 컴포넌트 라우팅|
 >   | Nav.js | /components/routing/ |메뉴 네비게이션 라우팅|
-> 
-> - Todo 관련 Components
-> 
->   | File Name |  Directory | 목적 |
->   | --- | --- | --- |
->   | TodoList.js | /components/todo/ |서버로 인증 후 받아온 Todo의 CRUD를 수행|
->   | TodoModal.js | /components/todo/ |Todo Create/Update 하기 위한 모달 윈도 컴포넌트|
-> 
-> - State 및 핸들러 관련 Components
+>   
+> - 상태관리 Sagas/Reducers 관련 Components
 > 
 >   | File Name |  Directory | 목적 |
 >   | --- | --- | --- |
->   | Login.js | /containers/ |LoginForm에 대한 로직 수행하는 컴포넌트|
->   | Signup.js | /containers/ |SignupForm에 대한 로직 수행하는 컴포넌트|
->   | Home.js | /containers/ |토큰이 유효성에 따라 결과를 렌더링 시켜주는 컴포넌트|
+>   | index.js | /reducers/|  |
+>   | signup.js | /pages/ | 사용자 회원가입 |
+>   | userprofile.js | /pages/ | 마이페이지 (사용자 정보) |
+>   
+>
 >   
 ### ***Backend End-points*** 
 > Resource modeling(수정 예정)
