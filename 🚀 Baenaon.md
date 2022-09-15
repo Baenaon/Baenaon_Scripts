@@ -78,7 +78,7 @@
 > | loginform.js | /pages/   | 사용자 로그인 페이지   |
 > | signup.js    | /pages/   | 사용자 회원가입 페이지 |
 > | logout.js    | /pages/   | 사용자 로그아웃 페이지 |
-
+> 
 > - 게시판 관련 Components
 >
 >   | File Name      | Directory          | 목적                 |
@@ -89,7 +89,7 @@
 >   | commentForm.js | /pages/            | 댓글 쓰기 컴포넌트   |
 >   | postCard.js    | /pages/            | 게시글 카드 컴포넌트 |
 >   | postForm       | /pages/            | 게시글 쓰기 컴포넌트 |
-
+>   
 > - 마이페이지 관련 Components
 >
 > | File Name        | Directory | 목적                  |
@@ -103,7 +103,7 @@
 >   | File Name | Directory | 목적                                       |
 >   | --------- | --------- | ------------------------------------------ |
 >   | map.js    | /pages/   | 카카오 지도 api 활용 위치 마커 생성 페이지 |
-
+>   
 > - 상태관리 Reducers 관련 Components
 >
 >   | File Name | Directory  | 목적           |
