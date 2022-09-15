@@ -94,9 +94,30 @@
 
 ### Installation
 
+> **1. Baenaon repository clone**
+> 
 > ```bash
 > git clone https://github.com/Baenaon/Baenaon/
 > ```
+> **2. backend 환경 설정**
+>
+> ```bash
+> cd backend
+> ```
+> **2-1 가상환경 생성 및 실행**
+>
+> ```bash
+> python -m venv venv
+> venv/Scripts/activate
+> ```
+>
+> **2-2 requirements 라이브러리 설치
+> 
+> ```bash
+> pip install -r requirements.txt
+> ```
+>
+>  
 
 
 
