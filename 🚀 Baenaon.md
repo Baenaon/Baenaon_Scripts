@@ -92,7 +92,11 @@
 > - 게시글 CRUD
 > - 댓글 CRUD
 
+### Installation
 
+> ```bash
+> git clone https://github.com/Baenaon/Baenaon/
+> ```
 
 
 
