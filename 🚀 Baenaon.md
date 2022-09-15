@@ -158,6 +158,32 @@
 
 ### Installation
 
+**Frontend**
+
+> <br>
+> - 새로운 쉘 생성하여 frontend 디렉터리 `/frontend`로 이동
+
+> ```bash
+> $ cd frontend
+> ```
+>
+> ```bash
+> $ npm i next
+> $ npm i next-redux-wrapper
+> $ npm i redux
+> $ npm i react-redux
+> $ npm i redux-saga
+> $ npm i redux-devtools-extension
+> $ npm install --save react-lottie-player
+> $ npm i react-router-dom
+> $ npm i redux-devtools-extension
+> $ npm i axios
+> $ npm i immer
+> $ npm install react-kakao-maps-sdk
+> $ npm install react-daum-postcode
+> ```
+
+
 **Backend**
 >
 > <br>
