@@ -246,7 +246,7 @@
 >  python manage.py makemigrations 
 >  ```
 >  ```bash
->  python manage.py migrate**
+>  python manage.py migrate
 > ```
 > 
 > **5. 서버 실행**
