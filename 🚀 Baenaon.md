@@ -111,13 +111,15 @@
 > venv/Scripts/activate
 > ```
 >
-> **2-2 requirements 라이브러리 설치
+> **2-2 requirements 라이브러리 설치**
 > 
 > ```bash
 > pip install -r requirements.txt
 > ```
 >
->  
+> **3. my_settings.py파일 생성 후 시크릿 키, 데이터베이스 넣기**
+> ![image](https://user-images.githubusercontent.com/87630540/190362250-fd81d9aa-a494-445f-8f0d-3fc1fb4740dc.png)
+> 
 
 
 
