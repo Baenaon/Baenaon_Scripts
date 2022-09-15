@@ -64,20 +64,20 @@
 
 ### ***Frontend Components***
 
-> 레이아읏 관련 Components
+> - 레이아읏 관련 Components
 >
-> | File Name | Directory              | 목적            |
-> | --------- | ---------------------- | --------------- |
-> | footer.js | /pages/ comonents/home | footer 레이아웃 |
-> | header.js | /pages/ comonents/home | header 레이아웃 |
+>   | File Name | Directory              | 목적            |
+>   | --------- | ---------------------- | --------------- |
+>   | footer.js | /pages/ comonents/home | footer 레이아웃 |
+>   | header.js | /pages/ comonents/home | header 레이아웃 |
 >
 > 로그인/회원가입 관련 Components
 >
-> | File Name    | Directory | 목적                   |
-> | ------------ | --------- | ---------------------- |
-> | loginform.js | /pages/   | 사용자 로그인 페이지   |
-> | signup.js    | /pages/   | 사용자 회원가입 페이지 |
-> | logout.js    | /pages/   | 사용자 로그아웃 페이지 |
+>   | File Name    | Directory | 목적                   |
+>   | ------------ | --------- | ---------------------- |
+>   | loginform.js | /pages/   | 사용자 로그인 페이지   |
+>   | signup.js    | /pages/   | 사용자 회원가입 페이지 |
+>   | logout.js    | /pages/   | 사용자 로그아웃 페이지 |
 > 
 > - 게시판 관련 Components
 >
@@ -92,11 +92,11 @@
 >   
 > - 마이페이지 관련 Components
 >
-> | File Name        | Directory | 목적                  |
-> | ---------------- | --------- | --------------------- |
-> | userprofile.js   | /pages/   | 마이페이지            |
-> | mypagepost.js    | /pages/   | 내가 쓴 글 컴포넌트   |
-> | mypagecomment.js | /pages/   | 내가 쓴 댓글 컴포넌트 |
+>   | File Name        | Directory | 목적                  |
+>   | ---------------- | --------- | --------------------- |
+>   | userprofile.js   | /pages/   | 마이페이지            |
+>   | mypagepost.js    | /pages/   | 내가 쓴 글 컴포넌트   |
+>   | mypagecomment.js | /pages/   | 내가 쓴 댓글 컴포넌트 |
 >
 > - 지도 관련 Components
 >
