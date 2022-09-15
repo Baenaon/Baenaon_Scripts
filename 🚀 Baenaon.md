@@ -71,7 +71,7 @@
 >   | footer.js | /pages/ comonents/home | footer 레이아웃 |
 >   | header.js | /pages/ comonents/home | header 레이아웃 |
 >
-> 로그인/회원가입 관련 Components
+>  - 로그인/회원가입 관련 Components
 >
 >   | File Name    | Directory | 목적                   |
 >   | ------------ | --------- | ---------------------- |
