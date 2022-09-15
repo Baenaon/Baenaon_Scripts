@@ -28,8 +28,8 @@
 >   - Django REST Framework JWT 1.11.0
 > 
 > - FRONTEND(React Webapp Client)
->  - axios 0.27
->  - immer 9.0.15
+>   - axios 0.27
+>   - immer 9.0.15
 >  - next 12.3.0
 >  - next-redux-wrapper 7.0.5
 >  - prettier 2.7.1
