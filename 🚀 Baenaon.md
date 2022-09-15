@@ -64,14 +64,14 @@
 
 ### ***Frontend Components***
 
-> - 레이아읏 관련 Components
+> 1️⃣  레이아읏 관련 Components
 >
 >   | File Name | Directory              | 목적            |
 >   | --------- | ---------------------- | --------------- |
 >   | footer.js | /pages/ comonents/home | footer 레이아웃 |
 >   | header.js | /pages/ comonents/home | header 레이아웃 |
 >
-> - 로그인/회원가입 관련 Components
+> 2️⃣ 로그인/회원가입 관련 Components
 >
 >    | File Name    | Directory | 목적                   |
 >    | ------------ | --------- | ---------------------- |
@@ -79,7 +79,7 @@
 >    | signup.js    | /pages/   | 사용자 회원가입 페이지 |
 >    | logout.js    | /pages/   | 사용자 로그아웃 페이지 |
 > 
-> - 게시판 관련 Components
+>  게시판 관련 Components
 >
 >   | File Name      | Directory          | 목적                 |
 >   | -------------- | ------------------ | -------------------- |
