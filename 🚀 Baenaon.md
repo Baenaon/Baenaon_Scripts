@@ -30,21 +30,21 @@
 > - FRONTEND(React Webapp Client)
 >   - axios 0.27
 >   - immer 9.0.15
->  - next 12.3.0
->  - next-redux-wrapper 7.0.5
->  - prettier 2.7.1
->  - react 18.2.0
->  - react-daum-postcode 3.1.1
->  - react-dom 18.2.0
->  - react-kakao-maps-sdk 1.1.3
->  - react-lottie-player ".4.3
->  - react-redux 8.0.2
->  - react-router-do 6.4.0
->  - react-sdk 0.0.0
->  - redux 4.2.0
->  - redux-devtools-extension 2.13.9
->  - redux-sag 1.2.1
-> - tailwindcss 3.1
+>   - next 12.3.0
+>   - next-redux-wrapper 7.0.5
+>   - prettier 2.7.1
+>   - react 18.2.0
+>   - react-daum-postcode 3.1.1
+>   - react-dom 18.2.0
+>   - react-kakao-maps-sdk 1.1.3
+>   - react-lottie-player ".4.3
+>   - react-redux 8.0.2
+>   - react-router-do 6.4.0
+>   - react-sdk 0.0.0
+>   - redux 4.2.0
+>   - redux-devtools-extension 2.13.9
+>   - redux-sag 1.2.1
+>   - tailwindcss 3.1
 
 > - DataBase
 >   - Mysql 
