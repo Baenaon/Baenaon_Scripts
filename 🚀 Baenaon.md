@@ -207,7 +207,6 @@
 ### Installation
 
 **Frontend**
-
 > <br>
 > - 새로운 쉘 생성하여 frontend 디렉터리 `/frontend`로 이동
 
